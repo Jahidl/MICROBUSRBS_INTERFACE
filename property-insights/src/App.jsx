@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 
-/* ========== tiny helpers (in-file) ========== */
+
 
 
 
@@ -11,6 +11,8 @@ import React, { useEffect, useMemo, useState } from "react";
 //It gives a dashboard for all the property data, has a filter based on type(All, House, property),  
 //+ based on bedrooms + search. Shows meadian price, average price and an active filter showing what have been 
 //applied, and an option to re-fetch. It also provides a table of resulted items. 
+
+
 const styles = {
   page: { minHeight: "100vh", background: "#0b0d10", color: "#e7edf3", fontFamily: "system-ui, -apple-system, Segoe UI, Roboto, Arial" },
   container: { maxWidth: 1120, margin: "0 auto", padding: 20 },
@@ -189,9 +191,7 @@ export default function App() {
         <div style={styles.header}>
           <div>
             <h1 style={styles.title}>Belmont North Property Dashboard</h1>
-            <p style={styles.subtitle}>
-              Live from your API. Simple KPIs • Compact visuals • Table.
-            </p>
+            
           </div>
           <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
             <button style={styles.btn} onClick={fetchFromApi}>Refetch</button>
