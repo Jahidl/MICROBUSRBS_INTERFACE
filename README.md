@@ -2,8 +2,9 @@ How to run: CD MICROBUSRBS_INTERFACE
            > npm install
            > npm run dev dev
 
+<img width="1440" height="900" alt="preview" src="https://github.com/user-attachments/assets/7a3564ec-347c-4fa1-b075-c6501830c737" />
 
-![Architecture diagram](assets/preview.png)
+
 
 What has been done in this project:
 
