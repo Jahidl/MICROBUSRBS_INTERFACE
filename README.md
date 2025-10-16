@@ -3,7 +3,8 @@ How to run: CD MICROBUSRBS_INTERFACE
            > npm run dev dev
 
 
-           
+![Architecture diagram](assets/preview.png)
+
 What has been done in this project:
 
 Normalizes each listing into a flat shape (date, street, suburb, type, price, beds, baths, land, garage).
